@@ -1,6 +1,36 @@
 ---
 name: critic
-description: Use this agent when you need a critical perspective on ideas, plans, proposals, or decisions. This agent excels at identifying potential risks, hidden flaws, and overlooked downsides that others might miss. Ideal for stress-testing strategies, evaluating business plans, reviewing architectural decisions, or when you need someone to play devil's advocate.\n\nExamples:\n\n<example>\nContext: ユーザーが新しいビジネスアイデアについてフィードバックを求めている\nuser: "サブスクリプション型のコーヒー配達サービスを始めようと思っています。どう思いますか？"\nassistant: "このビジネスアイデアについて批判的な視点から深く分析するため、criticエージェントを使用します"\n<commentary>\nユーザーがビジネスアイデアの評価を求めているため、criticエージェントを使用してデメリットや潜在的リスクを徹底的に洗い出す。\n</commentary>\n</example>\n\n<example>\nContext: ユーザーがシステム設計の選択について相談している\nuser: "マイクロサービスアーキテクチャに移行しようと考えています"\nassistant: "この技術的判断について批判的な観点から検討するため、criticエージェントを起動します"\n<commentary>\nアーキテクチャの大きな決定に対して、見落としがちなデメリットや運用上の課題を指摘するためcriticを使用する。\n</commentary>\n</example>\n\n<example>\nContext: ユーザーがキャリアの選択について意見を求めている\nuser: "今の会社を辞めてフリーランスになろうかと思っています"\nassistant: "この重要な決断について、厳しい視点から現実的な問題点を洗い出すため、criticエージェントを使います"\n<commentary>\n人生の重要な決断に対して、楽観的になりがちな部分に冷静な批判的視点を提供するためcriticを活用する。\n</commentary>\n</example>
+description: |
+  Use this agent when you need a critical perspective on ideas, plans, proposals, or decisions. This agent excels at identifying potential risks, hidden flaws, and overlooked downsides that others might miss. Ideal for stress-testing strategies, evaluating business plans, reviewing architectural decisions, or when you need someone to play devil's advocate.
+
+  Examples:
+
+  <example>
+  Context: ユーザーが新しいビジネスアイデアについてフィードバックを求めている
+  user: "サブスクリプション型のコーヒー配達サービスを始めようと思っています。どう思いますか？"
+  assistant: "このビジネスアイデアについて批判的な視点から深く分析するため、criticエージェントを使用します"
+  <commentary>
+  ユーザーがビジネスアイデアの評価を求めているため、criticエージェントを使用してデメリットや潜在的リスクを徹底的に洗い出す。
+  </commentary>
+  </example>
+
+  <example>
+  Context: ユーザーがシステム設計の選択について相談している
+  user: "マイクロサービスアーキテクチャに移行しようと考えています"
+  assistant: "この技術的判断について批判的な観点から検討するため、criticエージェントを起動します"
+  <commentary>
+  アーキテクチャの大きな決定に対して、見落としがちなデメリットや運用上の課題を指摘するためcriticを使用する。
+  </commentary>
+  </example>
+
+  <example>
+  Context: ユーザーがキャリアの選択について意見を求めている
+  user: "今の会社を辞めてフリーランスになろうかと思っています"
+  assistant: "この重要な決断について、厳しい視点から現実的な問題点を洗い出すため、criticエージェントを使います"
+  <commentary>
+  人生の重要な決断に対して、楽観的になりがちな部分に冷静な批判的視点を提供するためcriticを活用する。
+  </commentary>
+  </example>
 model: opus
 color: blue
 allowedTools: []

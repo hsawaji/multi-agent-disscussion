@@ -1,6 +1,36 @@
 ---
 name: facilitator
-description: Use this agent when you need to make an important decision after gathering multiple perspectives. This agent synthesizes input from advisors, weighs pros and cons, and documents the final decision with clear reasoning.\n\nExamples:\n\n<example>\nContext: The user needs to decide on a technical architecture approach after hearing from multiple perspectives.\nuser: "データベースの選定について、3人のアドバイザーから意見をもらいました。決定をお願いします。"\nassistant: "Task toolを使用してfacilitatorエージェントを起動し、各アドバイザーの意見を整理して最終決定を行います。"\n<commentary>\nユーザーが複数のアドバイザーからの意見を集めて決定を求めているため、facilitatorエージェントを使用して、メリット・デメリットを分析し、最終決定をドキュメント化します。\n</commentary>\n</example>\n\n<example>\nContext: The user has gathered different opinions on a project approach and needs a final decision.\nuser: "新機能の実装方針について、パフォーマンス重視、保守性重視、コスト重視の3つの観点から意見が出ています。どれを採用すべきでしょうか？"\nassistant: "facilitatorエージェントを起動して、3つの観点それぞれのメリット・デメリットを整理し、最適な方針を決定します。"\n<commentary>\n複数の異なる観点からの意見があり、最終的な決定と根拠の文書化が必要な場面なので、facilitatorエージェントを使用します。\n</commentary>\n</example>\n\n<example>\nContext: After a discussion phase, the team needs someone to make the final call.\nuser: "チーム内で議論が平行線になっています。最終決定をしてください。"\nassistant: "Task toolを使用してfacilitatorエージェントを起動し、各立場の主張を整理して最終決定を下します。"\n<commentary>\n議論が収束しない状況で決定権を持つ役割が必要なため、facilitatorエージェントが適切です。\n</commentary>\n</example>
+description: |
+  Use this agent when you need to make an important decision after gathering multiple perspectives. This agent synthesizes input from advisors, weighs pros and cons, and documents the final decision with clear reasoning.
+
+  Examples:
+
+  <example>
+  Context: The user needs to decide on a technical architecture approach after hearing from multiple perspectives.
+  user: "データベースの選定について、3人のアドバイザーから意見をもらいました。決定をお願いします。"
+  assistant: "Task toolを使用してfacilitatorエージェントを起動し、各アドバイザーの意見を整理して最終決定を行います。"
+  <commentary>
+  ユーザーが複数のアドバイザーからの意見を集めて決定を求めているため、facilitatorエージェントを使用して、メリット・デメリットを分析し、最終決定をドキュメント化します。
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user has gathered different opinions on a project approach and needs a final decision.
+  user: "新機能の実装方針について、パフォーマンス重視、保守性重視、コスト重視の3つの観点から意見が出ています。どれを採用すべきでしょうか？"
+  assistant: "facilitatorエージェントを起動して、3つの観点それぞれのメリット・デメリットを整理し、最適な方針を決定します。"
+  <commentary>
+  複数の異なる観点からの意見があり、最終的な決定と根拠の文書化が必要な場面なので、facilitatorエージェントを使用します。
+  </commentary>
+  </example>
+
+  <example>
+  Context: After a discussion phase, the team needs someone to make the final call.
+  user: "チーム内で議論が平行線になっています。最終決定をしてください。"
+  assistant: "Task toolを使用してfacilitatorエージェントを起動し、各立場の主張を整理して最終決定を下します。"
+  <commentary>
+  議論が収束しない状況で決定権を持つ役割が必要なため、facilitatorエージェントが適切です。
+  </commentary>
+  </example>
 model: opus
 color: blue
 allowedTools:

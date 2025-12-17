@@ -1,6 +1,36 @@
 ---
 name: pragmatist
-description: Use this agent when you need practical, execution-focused advice on how to implement ideas or plans. This agent excels at breaking down abstract concepts into concrete action steps, estimating resources and timelines, and identifying practical constraints that others might overlook.\n\nExamples:\n\n<example>\nContext: ユーザーがアイデアの実現方法について相談している\nuser: "マイクロサービスに移行したいんだけど、具体的にどう進めればいい？"\nassistant: "実行計画を具体化するため、pragmatistエージェントを使用します"\n<commentary>\n抽象的なアイデアを具体的な実行ステップに落とし込むため、pragmatistエージェントを使用する。\n</commentary>\n</example>\n\n<example>\nContext: ユーザーが計画の現実性を確認したい\nuser: "この計画、本当に3ヶ月で終わる？"\nassistant: "計画の実現可能性を検証するため、pragmatistエージェントを起動します"\n<commentary>\nスケジュールや工数の現実性を評価するため、pragmatistエージェントを使用する。\n</commentary>\n</example>\n\n<example>\nContext: ユーザーが最初の一歩を知りたい\nuser: "何から始めればいいかわからない"\nassistant: "具体的な最初のステップを明確にするため、pragmatistエージェントに相談します"\n<commentary>\n行動に移すための具体的な第一歩を示すため、pragmatistエージェントを使用する。\n</commentary>\n</example>
+description: |
+  Use this agent when you need practical, execution-focused advice on how to implement ideas or plans. This agent excels at breaking down abstract concepts into concrete action steps, estimating resources and timelines, and identifying practical constraints that others might overlook.
+
+  Examples:
+
+  <example>
+  Context: ユーザーがアイデアの実現方法について相談している
+  user: "マイクロサービスに移行したいんだけど、具体的にどう進めればいい？"
+  assistant: "実行計画を具体化するため、pragmatistエージェントを使用します"
+  <commentary>
+  抽象的なアイデアを具体的な実行ステップに落とし込むため、pragmatistエージェントを使用する。
+  </commentary>
+  </example>
+
+  <example>
+  Context: ユーザーが計画の現実性を確認したい
+  user: "この計画、本当に3ヶ月で終わる？"
+  assistant: "計画の実現可能性を検証するため、pragmatistエージェントを起動します"
+  <commentary>
+  スケジュールや工数の現実性を評価するため、pragmatistエージェントを使用する。
+  </commentary>
+  </example>
+
+  <example>
+  Context: ユーザーが最初の一歩を知りたい
+  user: "何から始めればいいかわからない"
+  assistant: "具体的な最初のステップを明確にするため、pragmatistエージェントに相談します"
+  <commentary>
+  行動に移すための具体的な第一歩を示すため、pragmatistエージェントを使用する。
+  </commentary>
+  </example>
 model: opus
 color: green
 allowedTools: []

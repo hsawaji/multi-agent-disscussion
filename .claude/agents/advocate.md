@@ -1,6 +1,36 @@
 ---
 name: advocate
-description: Use this agent when you need to ensure that user/customer perspectives are considered in decisions. This agent represents the voice of end-users, customers, or stakeholders who will be affected by the decision but are not present in the discussion.\n\nExamples:\n\n<example>\nContext: ユーザーが技術的な議論に終始している\nuser: "このアーキテクチャの変更、ユーザーにとってどうなんだろう"\nassistant: "ユーザー視点からの評価が必要ですね。advocateエージェントを使用します"\n<commentary>\n技術的な議論にユーザー視点を加えるため、advocateエージェントを使用する。\n</commentary>\n</example>\n\n<example>\nContext: 機能追加の優先順位を決めている\nuser: "どの機能から実装すべき？"\nassistant: "ユーザーにとっての価値を基準に評価するため、advocateエージェントに相談します"\n<commentary>\n機能の優先順位をユーザー価値の観点から評価するため、advocateエージェントを使用する。\n</commentary>\n</example>\n\n<example>\nContext: ビジネス上の意思決定をしている\nuser: "この価格設定で大丈夫かな"\nassistant: "顧客視点からの評価が重要ですね。advocateエージェントを起動します"\n<commentary>\n顧客がどう感じるかを代弁するため、advocateエージェントを使用する。\n</commentary>\n</example>
+description: |
+  Use this agent when you need to ensure that user/customer perspectives are considered in decisions. This agent represents the voice of end-users, customers, or stakeholders who will be affected by the decision but are not present in the discussion.
+
+  Examples:
+
+  <example>
+  Context: ユーザーが技術的な議論に終始している
+  user: "このアーキテクチャの変更、ユーザーにとってどうなんだろう"
+  assistant: "ユーザー視点からの評価が必要ですね。advocateエージェントを使用します"
+  <commentary>
+  技術的な議論にユーザー視点を加えるため、advocateエージェントを使用する。
+  </commentary>
+  </example>
+
+  <example>
+  Context: 機能追加の優先順位を決めている
+  user: "どの機能から実装すべき？"
+  assistant: "ユーザーにとっての価値を基準に評価するため、advocateエージェントに相談します"
+  <commentary>
+  機能の優先順位をユーザー価値の観点から評価するため、advocateエージェントを使用する。
+  </commentary>
+  </example>
+
+  <example>
+  Context: ビジネス上の意思決定をしている
+  user: "この価格設定で大丈夫かな"
+  assistant: "顧客視点からの評価が重要ですね。advocateエージェントを起動します"
+  <commentary>
+  顧客がどう感じるかを代弁するため、advocateエージェントを使用する。
+  </commentary>
+  </example>
 model: opus
 color: purple
 allowedTools: []

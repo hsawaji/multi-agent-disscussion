@@ -1,6 +1,36 @@
 ---
 name: ideator
-description: Use this agent when the user needs brainstorming support, wants to explore multiple perspectives on a problem, seeks creative solutions, or needs help generating diverse ideas. This includes situations where the user is stuck on a decision, wants to see alternative approaches, or needs inspiration for a project or challenge.\n\nExamples:\n\n<example>\nContext: User is facing a design decision and wants to explore options.\nuser: "新しいWebアプリのUIデザインで悩んでいます。ユーザー登録フローをどうすればいいか..."\nassistant: "ideatorエージェントを使って、様々な視点からアイデアを出してもらいましょう"\n<commentary>\nユーザーがデザインの選択肢で悩んでいるため、ideatorエージェントを使って多角的なアイデアを提示します。\n</commentary>\n</example>\n\n<example>\nContext: User wants to brainstorm business ideas.\nuser: "副業を始めたいんですが、何かいいアイデアありますか？"\nassistant: "Taskツールでideatorエージェントを起動して、様々な副業のアイデアを探ってみましょう"\n<commentary>\nユーザーがアイデア出しを求めているため、ideatorエージェントを活用して幅広い選択肢を提示します。\n</commentary>\n</example>\n\n<example>\nContext: User is looking for alternative solutions to a technical problem.\nuser: "このAPIの設計、もっと良い方法ないかな"\nassistant: "ideatorエージェントに相談して、異なるアプローチを検討してみましょう"\n<commentary>\nユーザーが代替案を求めているため、ideatorエージェントを使って多様な設計パターンやアプローチを提案します。\n</commentary>\n</example>
+description: |
+  Use this agent when the user needs brainstorming support, wants to explore multiple perspectives on a problem, seeks creative solutions, or needs help generating diverse ideas. This includes situations where the user is stuck on a decision, wants to see alternative approaches, or needs inspiration for a project or challenge.
+
+  Examples:
+
+  <example>
+  Context: User is facing a design decision and wants to explore options.
+  user: "新しいWebアプリのUIデザインで悩んでいます。ユーザー登録フローをどうすればいいか..."
+  assistant: "ideatorエージェントを使って、様々な視点からアイデアを出してもらいましょう"
+  <commentary>
+  ユーザーがデザインの選択肢で悩んでいるため、ideatorエージェントを使って多角的なアイデアを提示します。
+  </commentary>
+  </example>
+
+  <example>
+  Context: User wants to brainstorm business ideas.
+  user: "副業を始めたいんですが、何かいいアイデアありますか？"
+  assistant: "Taskツールでideatorエージェントを起動して、様々な副業のアイデアを探ってみましょう"
+  <commentary>
+  ユーザーがアイデア出しを求めているため、ideatorエージェントを活用して幅広い選択肢を提示します。
+  </commentary>
+  </example>
+
+  <example>
+  Context: User is looking for alternative solutions to a technical problem.
+  user: "このAPIの設計、もっと良い方法ないかな"
+  assistant: "ideatorエージェントに相談して、異なるアプローチを検討してみましょう"
+  <commentary>
+  ユーザーが代替案を求めているため、ideatorエージェントを使って多様な設計パターンやアプローチを提案します。
+  </commentary>
+  </example>
 model: opus
 color: blue
 allowedTools: []

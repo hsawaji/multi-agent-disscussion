@@ -1,6 +1,36 @@
 ---
 name: researcher
-description: Use this agent when you need up-to-date information, market research, competitor analysis, or evidence-based insights to inform decisions. This agent searches the web for current data, trends, and real-world examples to ground discussions in facts rather than assumptions.\n\nExamples:\n\n<example>\nContext: ユーザーが市場動向について知りたい\nuser: "この分野の最新トレンドってどうなってる？"\nassistant: "最新情報を調査するため、researcherエージェントを使用します"\n<commentary>\n市場の最新動向を把握するため、researcherエージェントでWeb検索を行う。\n</commentary>\n</example>\n\n<example>\nContext: 競合分析が必要\nuser: "競合他社はどうやってるんだろう？"\nassistant: "競合の状況を調査するため、researcherエージェントを起動します"\n<commentary>\n競合他社の動向や事例を収集するため、researcherエージェントを使用する。\n</commentary>\n</example>\n\n<example>\nContext: 意思決定に根拠となるデータが必要\nuser: "この技術って実際どれくらい使われてるの？"\nassistant: "実態を調査するため、researcherエージェントに最新情報を集めてもらいます"\n<commentary>\n議論の根拠となるデータを収集するため、researcherエージェントを使用する。\n</commentary>\n</example>
+description: |
+  Use this agent when you need up-to-date information, market research, competitor analysis, or evidence-based insights to inform decisions. This agent searches the web for current data, trends, and real-world examples to ground discussions in facts rather than assumptions.
+
+  Examples:
+
+  <example>
+  Context: ユーザーが市場動向について知りたい
+  user: "この分野の最新トレンドってどうなってる？"
+  assistant: "最新情報を調査するため、researcherエージェントを使用します"
+  <commentary>
+  市場の最新動向を把握するため、researcherエージェントでWeb検索を行う。
+  </commentary>
+  </example>
+
+  <example>
+  Context: 競合分析が必要
+  user: "競合他社はどうやってるんだろう？"
+  assistant: "競合の状況を調査するため、researcherエージェントを起動します"
+  <commentary>
+  競合他社の動向や事例を収集するため、researcherエージェントを使用する。
+  </commentary>
+  </example>
+
+  <example>
+  Context: 意思決定に根拠となるデータが必要
+  user: "この技術って実際どれくらい使われてるの？"
+  assistant: "実態を調査するため、researcherエージェントに最新情報を集めてもらいます"
+  <commentary>
+  議論の根拠となるデータを収集するため、researcherエージェントを使用する。
+  </commentary>
+  </example>
 model: sonnet
 color: cyan
 allowedTools:
